@@ -49,6 +49,6 @@ btn.addEventListener("click",async(evt)=>{
     let res = await fetch(`https://2024-03-06.currency-api.pages.dev/v1/currencies/${fCurr}.json`);
     let data = await res.json(tCurr);
     let r = data[fCurr][tCurr];
-    mssg.innerText = `${amtValue} ${fromCurr.value} = ${r*amtValue} ${toCurr.value}`;
+    mssg.innerText = `${amtValue} ${fromCurr.value} = ${(r*amtValue).toFixed(2)} ${toCurr.value}`;
 })
 
