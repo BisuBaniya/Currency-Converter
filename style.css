@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    border:border box;
+    font-family: sans-serif, Courier, monospace;
+}
+
+.navbar{
+    background: rgb(99, 24, 24);
+    height: 3.0rem;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    line-height: 3.0rem;
+}
+
+.n-item{
+    color: rgb(210, 215, 220);
+    font-size: large;
+    margin-right: 4.9rem;
+    text-decoration: 0.1rem brown underline;
+    /* transition: all 0.5s ease-in 0s; */
+}
+
+.n-item:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sec-line{
+    background-color: #f4e4ba;
+    height: 15rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    font-size: xx-large;
+    color: brown;
+}
+.sec-title{
+    font-size: small;
+    line-height: 5rem;
+}
+
+.hero-section{
+    height: 40rem;
+    /* width: 80rem; */
+    width: 100%;
+    background-color: #f4e4ba;
+    background-image: url(Photos/Sea.jpg);
+    background-size: cover;
+}
+
+.line{
+    height: 0.3rem;
+    background: brown;
+}
+
+form{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4rem;
+    line-height: 2rem;
+}
+
+button{
+    display:block;
+    margin: 0px auto;
+    position: relative;
+    top: 0.8rem;
+}
+
+.meraBhai{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.to{
+    margin-left: 16rem;
+}
+
+.icon{
+    position: relative;
+    top: 3rem;
+    left: 8rem;
+}
+
+.eA{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom:2rem;
+    font-size: xx-large;
+}
+
+.f{
+    position: relative;
+    right: 2.7rem;
+}
+
+.t{
+    position: relative;
+    right: 3.5rem;
+}
+
+input{
+    height: 2rem;
+    width: 15rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button{
+    position: relative;
+    top: 3rem;
+    height: 2rem;
+    width: 15rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.comp_line{
+    position: relative;
+    top: 2rem;
+}
+
+.ctp{
+    cursor:pointer;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button:active{
+    background-color: rgb(202, 40, 40);
+    color: white;
+}
+
