@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    border:border box;
+    box-sizing: border-box;
     font-family: sans-serif, Courier, monospace;
 }
 
@@ -11,7 +11,6 @@
 
 .nav-items{
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     line-height: 3.0rem;
 }
@@ -21,13 +20,13 @@
     font-size: large;
     margin-right: 4.9rem;
     text-decoration: 0.1rem brown underline;
-    /* transition: all 0.5s ease-in 0s; */
+    transition: 0.5s;
 }
 
 .n-item:hover{
     color: rgb(255, 255, 255);
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: 0.1rem white underline;
 }
 
 .sec-line{
